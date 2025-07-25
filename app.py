@@ -74,7 +74,6 @@ def main():
     <div class="main-header">
         <h1>🤖 AI Code Tutor</h1>
         <p>Your AI-Powered Coding Learning Assistant</p>
-        <p><em>Supporting SDG 4: Quality Education</em></p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -213,7 +212,7 @@ def debugging_assistant(client):
                     st.markdown(f"<div class='feature-card'>{debug_response}</div>", unsafe_allow_html=True)
 
 def mini_lessons(client):
-    st.header("📚 Mini Lessons")
+    st.header("Mini Lessons")
     st.write("Quick, focused lessons on programming concepts!")
     
     col1, col2 = st.columns([1, 2])
