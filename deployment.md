@@ -1,4 +1,4 @@
-## AI Code Tutor Deployment Guide
+# AI Code Tutor Deployment Guide
 
 This guide provides step-by-step instructions for deploying your AI Code Tutor application using Streamlit Cloud.
 
@@ -10,9 +10,9 @@ This guide provides step-by-step instructions for deploying your AI Code Tutor a
 - Python 3.8+ installed
 
 ## Prerequisites
-### Step 1:  Update repository files
-### Step 2: Push to GitHub
-### Step 3: Deploy on Streamlit Cloud
+#### Step 1:  Update repository files
+#### Step 2: Push to GitHub
+#### Step 3: Deploy on Streamlit Cloud
 
 - Go to [share.streamlit.io](https://share.streamlit.io)
 - Sign in with GitHub
@@ -21,7 +21,7 @@ This guide provides step-by-step instructions for deploying your AI Code Tutor a
 - Main file: `app.py`
 - Click **"Deploy!"**
 
-### Step 4: Add API Key
+#### Step 4: Add API Key
 
 - In your app dashboard, click **"⚙️ Settings"**
 - Go to **"Secrets"**
@@ -32,7 +32,7 @@ GROQ_API_KEY = "your_groq_api_key_here"
 - Click **"Save"**
 
 
-The app will be live at: `https://your-app-name.streamlit.app`
+The app will be live at: https://ai-code-tutor.streamlit.app/
 
 **Auto-updates**: Any GitHub push automatically redeploys your app.
 
